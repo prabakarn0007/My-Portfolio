@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/images/favicon.svg" />
+    <meta name="theme-color" content="#0038FF" />
+    <title>Praba Karan R | Passionate Fresher in Coding & Software Development</title>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+<body>
+    <div class="cursor"></div>
+    <nav>
+        <img src="./assets/images/s.png" alt="logo" width="100" height="50" />
+
+        <ul class="nav-list">
+            <li><a href="#about" onclick="closeNav()">
+                Who am I</a></li>
+            <li><a href="#projects" onclick="closeNav()">Education</a></li>
+            <li><a href="#knowledge" onclick="closeNav()">Knowledge</a></li>
+            <li><a href="#articles" onclick="closeNav()">Personal Skills</a></li>
+            <li><a href="#contact" onclick="closeNav()">Contact</a></li>
+        </ul>
+        <button class="nav-button" onclick="openNav()">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <button class="close-button" onclick="closeNav()">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </nav>
+    <main>
+        <section id="home" class="container container__home">
+            <div class="informations">
+                <span>Hello, I am</span>
+                <h1>Praba Karan R</h1>
+                <p>Passionate Fresher in Coding & Software Development                </p>
+                <a href="./assets/images/Praba.pdf" download="" target="_blank">
+                    Download CV
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <a href="mailto:prabakarn0007@gmail.com" class="hire-me-button">
+                    Hire Me
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="banner">
+                <img src="./assets/images/icon.svg" alt="icon photo" />
+            </div>
+        </section>
+
+        <section id="about" class="container container__about">
+            <div class="banner">
+                <img src="./assets/images/profile.png" alt="avatar" />
+            </div>
+            <div class="informations">
+                <div>
+                    <h2>Who am I</h2> <i class="fa-solid fa-user-astronaut"></i>
+                </div>
+                <span>
+                    My name is Praba Karn R. As a recent BSc. Computer Science graduate with a
+                    strong foundation in Java, HTML, and SQL, I’m eager
+                    to contribute effectively in software development
+                    and database management roles. Passionate about
+                    tackling challenges head-on, I’m committed to
+                    continuous learning in the dynamic field of
+                    technology.</span>
+            </div>
+        </section>
+
+        <section id="projects" class="container container__projects">
+            <div class="title-projects">
+                <h2>Education</h2>
+                <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <section class="container container__swiper">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <h2>01</h2>
+                                <h3>DCA - Diploma in Computer Application</h3>
+                                <p>In 2018, Apollo Computer Institute in Ariyalur 🏢 offered a comprehensive Diploma in Computer Application (DCA) program 💻.</p>
+                                <a href="#" target="_blank">Know More</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <h2>02</h2>
+                                <h3>12th HSC - Higher Secondary Certificate</h3>
+                                <p>In the academic year 2020-21, Government Model School in Sendurai 🏫 offered courses in 12th grade covering subjects such as Mathematics ➕, Physics 📚, Chemistry 🔬, and Biology 🧬.</p>
+                                <a href="#" target="_blank">Know More</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content">
+                                <h2>03</h2>
+                                <h3>Bachelor's Degree - Computer Science</h3>
+                                <p>From 2021 to 2024, Bharathidasan University 🎓, situated in Perambalur, diligently offered a Bachelor of Science degree in Computer Science 💻.</p>
+                                <a href="#" target="_blank">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </section>
+        
+
+
+        <section id="knowledge" class="container container__knowledge">
+            <div class="title-knowledge">
+                <h2>Knowledge</h2>
+                <i class="fa-solid fa-code"></i>
+            </div>
+
+            <div class="wrapper-knowledge">
+                <div class="stack-wrapper">
+                    <ul>
+                        <li>
+                            <div class="header-stack">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <h3>HTML</h3>
+                            </div>
+                            <span>Advanced</span>
+                        </li>
+                        <li>
+                            <div class="header-stack">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <h3>CSS</h3>
+                            </div>
+                            <span>Advanced</span>
+                        </li>
+                        <li>
+                            <div class="header-stack">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <h3>Javascript</h3>
+                            </div>
+                            <span>Intermediary</span>
+                        </li>
+                        <li>
+                            <div class="header-stack">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <h3>Java</h3>
+                            </div>
+                            <span>Intermediary</span>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="header-stack">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <h3>Git</h3>
+                            </div>
+                            <span>Advanced</span>
+                        </li>
+                        <li>
+                            <div class="header-stack">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <h3>GitHub</h3>
+                            </div>
+                            <span>Intermediary</span>
+                        </li>
+                        <li>
+                            <div class="header-stack">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <h3>React</h3>
+                            </div>
+                            <span>Basic</span>
+                        </li>
+                        <li>
+                            <div class="header-stack">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <h3>PHP</h3>
+                            </div>
+                            <span>Basic</span>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="header-stack">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <h3>Sass</h3>
+                            </div>
+                            <span>Intermediary</span>
+                        </li>
+                        <li>
+                            <div class="header-stack">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <h3>SQL</h3>
+                            </div>
+                            <span>Advanced</span>
+                        </li>
+                        <li>
+                            <div class="header-stack">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <h3>Python</h3>
+                            </div>
+                            <span>Intermediary</span>
+                        </li>
+                        <li>
+                            <div class="header-stack">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <h3>Docker</h3>
+                            </div>
+                            <span>Basic</span>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="header-stack">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <h3>C</h3>
+                            </div>
+                            <span>Advanced</span>
+                        </li>
+                        <li>
+                            <div class="header-stack">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <h3>C++</h3>
+                            </div>
+                            <span>Intermediary</span>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section id="articles" class="container container__articles">
+            <div class="title-articles">
+                <h2>Personal Skills</h2>
+                <i class="fa-solid fa-newspaper"></i>
+            </div>
+            <div class="wrapper">
+                <div class="card">
+                    <div class="content">
+                        <h2>01</h2>
+                        <h3>Teamwork</h3>
+                        <p> 🏆 "Recognized for my role in achieving team goals and delivering high-quality results through effective collaboration."
+                            📈 "Consistently contributes to a supportive team culture, promoting open communication and mutual respect among team members."
+                            💪 "Not afraid to take on leadership roles within the team, leading by example and inspiring others to perform at their best."</p>
+                        <a href="#" target="_blank">know more</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h2>02</h2>
+                        <h3>Responsible                        </h3>
+                        <p>Certainly! Here are some lines highlighting your responsibility in your work:
+
+                            🎯 "Take ownership of tasks and projects, ensuring timely completion and adherence to quality standards."
+                            💼 "Demonstrate a strong sense of accountability in all aspects of my work, from planning and execution to follow-up and resolution</p>
+                        <a href="#" target="_blank">know more</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h2>03</h2>
+                        <h3>Organized                        </h3>
+                        <p>Certainly! Here are those lines with added emojis:
+
+                            "📈 Proven track record of effectively managing projects from inception to completion, ensuring all deadlines are met and deliverables are of the highest quality."
+                            "📊 Utilized strong organizational skills to streamline processes and increase efficiency, resulting in improved workflow and productivity."</p>
+                        <a href="#" target="_blank">know more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container container__contact">
+            <div class="title-contact">
+                <h2>Contact</h2>
+                <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <div class="container-form">
+                <form action="https://formsubmit.co/prabakarn0007@gmail.com" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required />
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required />
+
+                    <label for="message">Message</label>
+                    <textarea type="text" name="message" id="message" rows="6" cols="54" required></textarea>
+
+                    <button type="submit">To send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>&copy; <span class="year-footer">2024</span> Praba Karan R</h3>
+        <ul>
+            <li><a href="www.linkedin.com/in/praba-karan-r-a48721293" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a></li> 
+            <li><a href="https://github.com/prabakarn0007" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a></li>
+            <li><a href="https://www.instagram.com/_https._.p.r.a.b.a._._/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a></li>
+            <li><a href="https://twitter.com/Prabaka20106204" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+            </a></li>
+            <li><a href="mailto:prabakarn0007@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+            </a></li>
+            <li><a href="http://wa.me/918270586005" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a></li>
+            <li><a href="https://t.me/+918270586005" target="_blank">
+                <i class="fa-brands fa-telegram"></i>
+            </a></li>
+        </ul>    
+    </footer>
+
+    <script src="./assets/js/get-actual-year.js"></script>
+    <script src="./assets/js/mobile-navbar.js"></script>
+    <script src="https://kit.fontawesome.com/b9b6231623.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/vanilla-tilt.js"></script>
+    <script src="./assets/js/cursor.js"></script>
+    <script>
+            VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+	    });
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+      });
+    </script>
+
+    <a class="top-button" href="#home">
+        <i class="fa-solid fa-circle-up"></i>
+    </a>
+</body>
+</html>
